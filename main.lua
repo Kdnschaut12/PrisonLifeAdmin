@@ -1,6 +1,6 @@
 Execution_Runtime = tick()
 PLadmin_Settings = {
-  DefaultPrefix = ";"; --The default prefix for pladmin
+  DefaultPrefix = "?"; --The default prefix for pladmin
   JoinNotify = false; --Notify when a player joins
   AutoRespawn = true; --Automatically loadcharacter when dying
   AntiVoid = true; --Automatically teleport up when falling into void
@@ -12,7 +12,7 @@ PLadmin_Settings = {
   AntiShield = true; --stop pay2win people and bypass their shields
   AntiBring = false; --Prevent other exploiter(s) from bringing you
   SilentAim = false; --Makes you shoot without missing a target
-  AutoGuns = false; --Automatically get all guns
+  AutoGuns = true; --Automatically get all guns
   OldItemMethod = false; --Use teleport for getting items (USE THIS IF PRISON LIFE PATCHES THE TABLE METHOD)
   Fullbright = true; --Enable fullbrightness
   WhitelistRanked = false; --Automatically whitelist ranked players (DO NOT USE WHEN RANKING ALL PLAYERS)
